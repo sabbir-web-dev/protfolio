@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--padding);
   color: var(--text);
 }
 .logo {
@@ -17,7 +16,7 @@
   justify-content: end;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .nav-wrap li{
   list-style: none;
@@ -64,7 +63,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .nav-wrap ul{
     display: none;
   }

@@ -12,7 +12,7 @@ function Navber({getTheme}) {
   },[getTheme, theme])
 
   return (
-    <nav className="nav-wrap">
+    <nav className="nav-wrap padding">
       <h4 className="logo">Dev.</h4>
       <ul>
         <li className="link"><a href="#home">Home</a></li>
