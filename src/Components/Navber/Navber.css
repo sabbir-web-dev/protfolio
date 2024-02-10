@@ -10,13 +10,12 @@
   font-size: 2rem;
 }
 .nav-wrap ul {
-  flex:end;
   display: flex;
   gap: 1.7rem;
-  justify-content: end;
   align-items: center;
   flex-wrap: wrap;
   font-size: 1.1rem;
+  flex:end;
 }
 .nav-wrap li{
   list-style: none;
