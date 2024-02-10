@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navber from './Components/Navber/Navber';
 import Hero from './Components/Hero/Hero';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const [theme,setTheme] = useState(true);
@@ -13,6 +14,7 @@ function App() {
     <div className='full-wrap' data-theme={theme ? "dark" : " "} >
       <Navber getTheme={getTheme} />
       <Hero />
+      <Footer />
     </div>
   );
 }
